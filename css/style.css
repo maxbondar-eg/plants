@@ -253,10 +253,6 @@ header{
 	color: #FFFFFF;
 }
 
-.services_items{
-	
-}
-
 .items_row{
 	display: flex;
 	justify-content: space-between;
@@ -354,10 +350,22 @@ header{
 }
 
 .plan_arrow{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 16px;
     height: 16px;
     background-color: #AEA1A1;
     border-radius: 50%;
+	padding-top: 2px;
+}
+
+.arrow{
+	width: 6px;
+	height: 6px;
+	border-right: #000000 2px solid;
+	border-top: #000000 2px solid;
+	transform: rotate(-45deg);
 }
 
 .prices_contact{
@@ -460,13 +468,14 @@ header{
 }
 
 .contact_us_arrow{
-	/* position: relative; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 16px;
     height: 16px;
     background-color: #AEA1A1;
     border-radius: 50%;
-	/* left: 50%;
-    top: 70%; */
+	padding-top: 2px;
 }
 
 .arrow-light{

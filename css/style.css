@@ -695,6 +695,7 @@ footer{
 		display: block;
 		width: 40px;
   		padding-bottom: 8px;
+		background: transparent;
 	}
 
 	.hamburger-lines {
